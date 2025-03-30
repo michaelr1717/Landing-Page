@@ -5,6 +5,12 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 button {
     background-color: #3882f6;
     border: none;
@@ -41,5 +47,38 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img-divs {
+    width: 209.6px;
+    height: auto;
+}
+
+.img-divs img {
+    border: 5px solid blue;
+    border-radius: 10%;
+}
+
+.img-divs p {
+    color: #1f2937;
+}
+
+#content-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
